@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import Content from '../components/Content'
 import Sidebar from '../components/Sidebar'
 
 const Home: React.FC = () => {
@@ -14,9 +15,9 @@ const Home: React.FC = () => {
                 <title>Spotify</title>
             </Head>
 
-            <main>
+            <main className='flex'>
                 <Sidebar />
-                {/* Content */}
+                <Content />
             </main>
 
             <div>

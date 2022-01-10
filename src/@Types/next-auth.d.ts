@@ -10,6 +10,8 @@ declare module "next-auth" {
         accessToken
         refreshToken
         username
+        name: string
+        image: string
     }
   }
 }
