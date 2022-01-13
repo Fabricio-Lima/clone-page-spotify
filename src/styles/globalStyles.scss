@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .button {
+        @apply h-5 w-5;
+    }
+}
+
