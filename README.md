@@ -40,12 +40,9 @@ JWT_SECRET="TOKEN_SECRET"
 
 5. Acesse `developer.spotify.com/` faça login e abra seu app. Na paǵina inicial, abra o editor de configurações
 e navegue até `Redirects URI`, e insira o valor da variável `NEXTAUTH_URL` em `VALOR_DA_VARIAVEL/api/auth/callback/spotify` 
-(ex: http://localhost:3000/api/auth/callback/spotify) 
+(ex: http://localhost:3000/api/auth/callback/spotify)
 
-6. Após todos processos anteriores, execute os seguintes comandos: `yarn run build e yarn start` para uso em producão
+6. Abra o app do Spotify oficial (Spotify Web Player, Spotify Desktop ou Spotify Mobile) e execute uma música qualquer.
+
+7. Após todos processos anteriores, execute os seguintes comandos: `yarn run build e yarn start` para uso em producão
 ou `yarn dev` para uso em modo de desenvolvimento.
-
-
-
-
-
